@@ -7,13 +7,13 @@ public class AreaCircun {
 		
 		double r, area;
 		
-		System.out.print("Digite o valor do raio de uma circunferência: ");
+		System.out.print("Digite o valor do raio de uma circunferÄ™ncia: ");
 		r = in.nextDouble();
 		area = 3.14 * (r*r);
 		
 		System.out.println();
-		System.out.print("A área desta circunferência é "+ area);
-		
+		System.out.print("A Ã¡rea desta circunferÄ™ncia Ã© "+ area);
+		//descobrir o raio da circuferencia, nesse caso deve calcular area e o resultado que der + area
 		in.close();
 	}
 }
